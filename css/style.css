@@ -1,3 +1,21 @@
+@charset "UTF-8";
+@-webkit-keyframes opacity0-1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes opacity0-1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 @-webkit-keyframes up {
   from {
     -webkit-transform: translateY(-50vh);
@@ -126,20 +144,211 @@
   }
 }
 
+@-webkit-keyframes s001 {
+  0% {
+    translate: 0;
+  }
+  30% {
+    translate: -75px;
+  }
+  60% {
+    translate: -150px;
+  }
+  100% {
+    translate: -150px;
+  }
+}
+
+@keyframes s001 {
+  0% {
+    translate: 0;
+  }
+  30% {
+    translate: -75px;
+  }
+  60% {
+    translate: -150px;
+  }
+  100% {
+    translate: -150px;
+  }
+}
+
+@-webkit-keyframes s002-001 {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 215%;
+  }
+}
+
+@keyframes s002-001 {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 215%;
+  }
+}
+
+@-webkit-keyframes s002-after {
+  from {
+    letter-spacing: -3.3rem;
+  }
+  to {
+    letter-spacing: 0.4rem;
+  }
+}
+
+@keyframes s002-after {
+  from {
+    letter-spacing: -3.3rem;
+  }
+  to {
+    letter-spacing: 0.4rem;
+  }
+}
+
+@-webkit-keyframes s002 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -83px;
+  }
+}
+
+@keyframes s002 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -83px;
+  }
+}
+
+@-webkit-keyframes s003 {
+  from {
+    letter-spacing: -3.3rem;
+    right: 5.5rem;
+  }
+  to {
+    letter-spacing: 0.15rem;
+    right: -0.2rem;
+  }
+}
+
+@keyframes s003 {
+  from {
+    letter-spacing: -3.3rem;
+    right: 5.5rem;
+  }
+  to {
+    letter-spacing: 0.15rem;
+    right: -0.2rem;
+  }
+}
+
+@-webkit-keyframes g001 {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -110px;
+  }
+}
+
+@keyframes g001 {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -110px;
+  }
+}
+
+@-webkit-keyframes s004 {
+  from {
+    translate: -50% 80%;
+  }
+  to {
+    translate: -50% -50%;
+  }
+}
+
+@keyframes s004 {
+  from {
+    translate: -50% 80%;
+  }
+  to {
+    translate: -50% -50%;
+  }
+}
+
+@-webkit-keyframes s004-color {
+  0% {
+    color: #ffff00;
+  }
+  33% {
+    color: magenta;
+  }
+  66% {
+    color: cyan;
+  }
+  100% {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+  }
+}
+
+@keyframes s004-color {
+  0% {
+    color: #ffff00;
+  }
+  33% {
+    color: magenta;
+  }
+  66% {
+    color: cyan;
+  }
+  100% {
+    color: transparent;
+    -webkit-text-stroke: 2px white;
+  }
+}
+
+:root {
+  font-size: 16px;
+}
+
 * {
-  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 900;
   font-style: normal;
   color: white;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
 }
 
 main {
   width: 400px;
   height: 300px;
-  background-color: black;
+  background-color: #1c2a32;
+  position: relative;
+}
+
+#s001,
+#s002,
+#s003 {
+  position: absolute;
+  font-size: 3.3rem;
 }
 
 #s001 {
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
   display: -webkit-box;
@@ -151,8 +360,9 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 0.5rem;
-  font-size: 3.4rem;
+  gap: 0.2rem;
+  -webkit-animation: s001 0.7s cubic-bezier(0.84, -0.01, 0.19, 1) 0.4s 1 normal both;
+          animation: s001 0.7s cubic-bezier(0.84, -0.01, 0.19, 1) 0.4s 1 normal both;
 }
 
 #s001-001 {
@@ -163,5 +373,72 @@ main {
 #s001-002 {
   -webkit-animation: s001-002 0.3s linear 0.1s 1 normal both;
           animation: s001-002 0.3s linear 0.1s 1 normal both;
+}
+
+#s002 {
+  top: 140px;
+  right: 80px;
+  width: 3.3rem;
+  height: 3.3rem;
+  -webkit-animation: s002 0.3s cubic-bezier(0.84, -0.01, 0.19, 1) 0.6s 1 normal both;
+          animation: s002 0.3s cubic-bezier(0.84, -0.01, 0.19, 1) 0.6s 1 normal both;
+}
+
+#s002-001 {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  padding: 0.4rem;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  background-color: white;
+  -webkit-animation: opacity0-1 0.0001s linear 0.4s 1 normal both, s002-001 0.3s ease-in-out 0.45s 1 normal both;
+          animation: opacity0-1 0.0001s linear 0.4s 1 normal both, s002-001 0.3s ease-in-out 0.45s 1 normal both;
+}
+
+#s002-001::after {
+  content: "混沌";
+  display: block;
+  position: absolute;
+  color: #1c2a32;
+  letter-spacing: -3.3rem;
+  z-index: 2;
+  width: 3em;
+  top: 0.25rem;
+  left: 0.4rem;
+  -webkit-animation: opacity0-1 0.0001s linear 0.4s 1 normal both, s002-after 0.3s ease-in-out 0.45s 1 normal both;
+          animation: opacity0-1 0.0001s linear 0.4s 1 normal both, s002-after 0.3s ease-in-out 0.45s 1 normal both;
+}
+
+#s003 {
+  top: 142px;
+  right: 5.5rem;
+  letter-spacing: -3.3rem;
+  -webkit-animation: opacity0-1 0.0001s linear 0.6s 1 normal both, s003 0.3s ease-in-out 0.65s 1 normal both;
+          animation: opacity0-1 0.0001s linear 0.6s 1 normal both, s003 0.3s ease-in-out 0.65s 1 normal both;
+}
+
+#g001 {
+  height: 100%;
+  width: 100%;
+  -webkit-animation: g001 0.4s ease-out 0.9s 1 normal both;
+          animation: g001 0.4s ease-out 0.9s 1 normal both;
+}
+
+#s004 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #ffff00;
+  font-size: 12rem;
+  -webkit-text-stroke: 0px white;
+  -webkit-animation: s004 0.6s cubic-bezier(0, 0, 0.24, 1) 0.9s 1 normal both, s004-color 0.3s step-end 1.4s 1 normal both;
+          animation: s004 0.6s cubic-bezier(0, 0, 0.24, 1) 0.9s 1 normal both, s004-color 0.3s step-end 1.4s 1 normal both;
 }
 /*# sourceMappingURL=style.css.map */
