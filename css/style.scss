@@ -1,0 +1,32 @@
+@import "./animation-move.scss";
+
+* {
+  font-family: source-han-sans-cjk-ja, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  color: white;
+}
+
+main {
+  width: 400px;
+  height: 300px;
+  background-color: black;
+}
+
+#s001 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 3.4rem;
+
+  &-001 {
+    animation: s001-001 0.4s linear 0s 1 normal both;
+  }
+
+  &-002 {
+    animation: s001-002 0.3s linear 0.1s 1 normal both;
+  }
+}
