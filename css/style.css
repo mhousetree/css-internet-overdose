@@ -318,6 +318,162 @@
   }
 }
 
+@-webkit-keyframes s005-001 {
+  0% {
+    translate: 0 -100px;
+  }
+  25% {
+    translate: 0 40px;
+  }
+  50% {
+    translate: 0 -40px;
+  }
+  75% {
+    translate: 0 20px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@keyframes s005-001 {
+  0% {
+    translate: 0 -100px;
+  }
+  25% {
+    translate: 0 40px;
+  }
+  50% {
+    translate: 0 -40px;
+  }
+  75% {
+    translate: 0 20px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@-webkit-keyframes s005-002 {
+  0% {
+    translate: 0 -100px;
+  }
+  50% {
+    translate: 0 20px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@keyframes s005-002 {
+  0% {
+    translate: 0 -100px;
+  }
+  50% {
+    translate: 0 20px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@-webkit-keyframes s005-004 {
+  0% {
+    translate: 0 100px;
+  }
+  33% {
+    translate: 0 -20px;
+  }
+  66% {
+    translate: 0 20px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@keyframes s005-004 {
+  0% {
+    translate: 0 100px;
+  }
+  33% {
+    translate: 0 -20px;
+  }
+  66% {
+    translate: 0 20px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@-webkit-keyframes s005-005 {
+  0% {
+    translate: 0 -50px;
+  }
+  33% {
+    translate: 0 10px;
+  }
+  66% {
+    translate: 0 -10px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@keyframes s005-005 {
+  0% {
+    translate: 0 -50px;
+  }
+  33% {
+    translate: 0 10px;
+  }
+  66% {
+    translate: 0 -10px;
+  }
+  100% {
+    translate: 0 0px;
+  }
+}
+
+@-webkit-keyframes s005 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: 420px;
+  }
+}
+
+@keyframes s005 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: 420px;
+  }
+}
+
+@-webkit-keyframes s006 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: 20px;
+  }
+}
+
+@keyframes s006 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: 20px;
+  }
+}
+
 :root {
   font-size: 16px;
 }
@@ -441,5 +597,63 @@ main {
   -webkit-text-stroke: 0px white;
   -webkit-animation: s004 0.6s cubic-bezier(0, 0, 0.24, 1) 0.9s 1 normal both, s004-color 0.4s step-end 1.4s 1 normal both;
           animation: s004 0.6s cubic-bezier(0, 0, 0.24, 1) 0.9s 1 normal both, s004-color 0.4s step-end 1.4s 1 normal both;
+}
+
+#s005 {
+  width: 102%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  font-size: 2.9rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 90px;
+  left: -1%;
+  -webkit-animation: opacity0-1 0.0001s linear 1.1s 1 normal both, s005 0.2s ease-out 1.5s 1 normal both;
+          animation: opacity0-1 0.0001s linear 1.1s 1 normal both, s005 0.2s ease-out 1.5s 1 normal both;
+}
+
+#s005 > p:not(:first-child) {
+  margin-left: -0.7rem;
+}
+
+#s005-001 {
+  -webkit-animation: s005-001 0.4s linear 1.1s 1 normal both;
+          animation: s005-001 0.4s linear 1.1s 1 normal both;
+}
+
+#s005-002, #s005-009 {
+  -webkit-animation: s005-002 0.4s linear 1.2s 1 normal both;
+          animation: s005-002 0.4s linear 1.2s 1 normal both;
+}
+
+#s005-003, #s005-008 {
+  -webkit-animation: s005-002 0.4s linear 1.1s 1 normal both;
+          animation: s005-002 0.4s linear 1.1s 1 normal both;
+}
+
+#s005-004, #s005-007 {
+  -webkit-animation: s005-004 0.4s linear 1.1s 1 normal both;
+          animation: s005-004 0.4s linear 1.1s 1 normal both;
+}
+
+#s005-005 {
+  -webkit-animation: s005-005 0.4s linear 1.1s 1 normal both;
+          animation: s005-005 0.4s linear 1.1s 1 normal both;
+}
+
+#s005-006 {
+  -webkit-animation: s005-001 0.4s linear 1.2s 1 normal both;
+          animation: s005-001 0.4s linear 1.2s 1 normal both;
+}
+
+#s006 {
+  position: absolute;
+  top: 68.5%;
+  left: 55%;
+  -webkit-animation: opacity0-1 0.0001s linear 1.7s 1 normal both, s006 0.5s ease-out 1.7s 1 normal both;
+          animation: opacity0-1 0.0001s linear 1.7s 1 normal both, s006 0.5s ease-out 1.7s 1 normal both;
 }
 /*# sourceMappingURL=style.css.map */

@@ -119,4 +119,52 @@ main {
     s004-color 0.4s step-end 1.4s 1 normal both;
 }
 
+// のインターネットを
+#s005 {
+  width: 102%;
+  display: flex;
+  position: absolute;
+  font-size: 2.9rem;
+  justify-content: space-between;
+  bottom: 90px;
+  left: -1%;
+  animation: opacity0-1 0.0001s linear 1.1s 1 normal both,
+    s005 0.2s ease-out 1.5s 1 normal both;
+
+  > p:not(:first-child) {
+    margin-left: -0.7rem;
+  }
+
+  &-001 {
+    animation: s005-001 0.4s linear 1.1s 1 normal both;
+  }
+  &-002,
+  &-009 {
+    animation: s005-002 0.4s linear 1.2s 1 normal both;
+  }
+  &-003,
+  &-008 {
+    animation: s005-002 0.4s linear 1.1s 1 normal both;
+  }
+  &-004,
+  &-007 {
+    animation: s005-004 0.4s linear 1.1s 1 normal both;
+  }
+  &-005 {
+    animation: s005-005 0.4s linear 1.1s 1 normal both;
+  }
+  &-006 {
+    animation: s005-001 0.4s linear 1.2s 1 normal both;
+  }
+}
+
+// のインターネットを2
+#s006 {
+  position: absolute;
+  top: 68.5%;
+  left: 55%;
+  animation: opacity0-1 0.0001s linear 1.7s 1 normal both,
+    s006 0.5s ease-out 1.7s 1 normal both;
+}
+
 // filter: drop-shadow(0, 3px, 10px, black);
