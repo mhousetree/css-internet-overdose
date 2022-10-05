@@ -20,6 +20,7 @@ main {
   height: 300px;
   background-color: #1c2a32;
   position: relative;
+  overflow: hidden;
 }
 
 #s001,
@@ -104,6 +105,7 @@ main {
   animation: g001 0.4s ease-out 0.9s 1 normal both;
 }
 
+// 令和
 #s004 {
   position: absolute;
   left: 50%;
@@ -114,7 +116,7 @@ main {
   font-size: 12rem;
   -webkit-text-stroke: 0px white;
   animation: s004 0.6s cubic-bezier(0, 0, 0.24, 1) 0.9s 1 normal both,
-    s004-color 0.3s step-end 1.4s 1 normal both;
+    s004-color 0.4s step-end 1.4s 1 normal both;
 }
 
 // filter: drop-shadow(0, 3px, 10px, black);
