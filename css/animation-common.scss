@@ -6,3 +6,21 @@
     opacity: 1;
   }
 }
+
+@keyframes opacity0-04 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes scale05-1 {
+  from {
+    transform: translate(-50%, -55%) scale(0.5);
+  }
+  to {
+    transform: translate(-50%, -55%) scale(1);
+  }
+}

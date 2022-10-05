@@ -16,6 +16,46 @@
   }
 }
 
+@-webkit-keyframes opacity0-04 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@keyframes opacity0-04 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.4;
+  }
+}
+
+@-webkit-keyframes scale05-1 {
+  from {
+    -webkit-transform: translate(-50%, -55%) scale(0.5);
+            transform: translate(-50%, -55%) scale(0.5);
+  }
+  to {
+    -webkit-transform: translate(-50%, -55%) scale(1);
+            transform: translate(-50%, -55%) scale(1);
+  }
+}
+
+@keyframes scale05-1 {
+  from {
+    -webkit-transform: translate(-50%, -55%) scale(0.5);
+            transform: translate(-50%, -55%) scale(0.5);
+  }
+  to {
+    -webkit-transform: translate(-50%, -55%) scale(1);
+            transform: translate(-50%, -55%) scale(1);
+  }
+}
+
 @-webkit-keyframes up {
   from {
     -webkit-transform: translateY(-50vh);
@@ -255,7 +295,7 @@
     translate: 0 0;
   }
   to {
-    translate: 0 -110px;
+    translate: 0 -120px;
   }
 }
 
@@ -264,7 +304,7 @@
     translate: 0 0;
   }
   to {
-    translate: 0 -110px;
+    translate: 0 -120px;
   }
 }
 
@@ -298,6 +338,7 @@
   }
   100% {
     color: transparent;
+    text-stroke: 2px white;
     -webkit-text-stroke: 2px white;
   }
 }
@@ -314,6 +355,7 @@
   }
   100% {
     color: transparent;
+    text-stroke: 2px white;
     -webkit-text-stroke: 2px white;
   }
 }
@@ -461,7 +503,7 @@
     translate: 0;
   }
   to {
-    translate: 20px;
+    translate: 42px;
   }
 }
 
@@ -470,7 +512,43 @@
     translate: 0;
   }
   to {
-    translate: 20px;
+    translate: 42px;
+  }
+}
+
+@-webkit-keyframes s007-001 {
+  from {
+    translate: 0 120px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@keyframes s007-001 {
+  from {
+    translate: 0 120px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@-webkit-keyframes g002 {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 20;
+  }
+}
+
+@keyframes g002 {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 20;
   }
 }
 
@@ -493,7 +571,8 @@ main {
   height: 300px;
   background-color: #1c2a32;
   position: relative;
-  overflow: hidden;
+  -webkit-box-shadow: inset 0 0 100px black;
+          box-shadow: inset 0 0 100px black;
 }
 
 #s001,
@@ -587,7 +666,7 @@ main {
 #s004 {
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 45%;
   translate: -50% -50%;
   width: -webkit-max-content;
   width: -moz-max-content;
@@ -609,7 +688,7 @@ main {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  bottom: 90px;
+  bottom: 110px;
   left: -1%;
   -webkit-animation: opacity0-1 0.0001s linear 1.1s 1 normal both, s005 0.2s ease-out 1.5s 1 normal both;
           animation: opacity0-1 0.0001s linear 1.1s 1 normal both, s005 0.2s ease-out 1.5s 1 normal both;
@@ -651,9 +730,93 @@ main {
 
 #s006 {
   position: absolute;
-  top: 68.5%;
+  font-size: 0.8rem;
+  top: 64%;
   left: 55%;
   -webkit-animation: opacity0-1 0.0001s linear 1.7s 1 normal both, s006 0.5s ease-out 1.7s 1 normal both;
           animation: opacity0-1 0.0001s linear 1.7s 1 normal both, s006 0.5s ease-out 1.7s 1 normal both;
+}
+
+#s007 {
+  position: absolute;
+  left: 2.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 95%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  bottom: 27px;
+  font-size: 2.5rem;
+}
+
+#s007-001 {
+  -webkit-animation: s007-001 0.6s ease-out 2.1s 1 normal both;
+          animation: s007-001 0.6s ease-out 2.1s 1 normal both;
+}
+
+#s007-002 {
+  -webkit-animation: s007-001 0.6s ease-out 2s 1 normal both;
+          animation: s007-001 0.6s ease-out 2s 1 normal both;
+}
+
+#s007-003 {
+  -webkit-animation: s007-001 0.4s ease-out 1.9s 1 normal both;
+          animation: s007-001 0.4s ease-out 1.9s 1 normal both;
+}
+
+#s007-004 {
+  -webkit-animation: s007-001 0.6s ease-out 1.8s 1 normal both;
+          animation: s007-001 0.6s ease-out 1.8s 1 normal both;
+}
+
+#s007-005 {
+  -webkit-animation: s007-001 0.6s ease-out 1.9s 1 normal both;
+          animation: s007-001 0.6s ease-out 1.9s 1 normal both;
+}
+
+#s007-006 {
+  -webkit-animation: s007-001 0.6s ease-out 2s 1 normal both;
+          animation: s007-001 0.6s ease-out 2s 1 normal both;
+}
+
+#g002 {
+  height: 100%;
+  width: 100%;
+  -webkit-animation: g002 0.5s ease-in 2.7s 1 normal both;
+          animation: g002 0.5s ease-in 2.7s 1 normal both;
+}
+
+#s008 {
+  position: absolute;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+  top: 50%;
+  left: 50%;
+  font-size: 15.5rem;
+}
+
+#s008-001, #s008-002 {
+  position: absolute;
+  -webkit-transform: translate(-50%, -55%);
+          transform: translate(-50%, -55%);
+  top: 50%;
+  left: 50%;
+}
+
+#s008-001 {
+  translate: 0 -3%;
+  text-stroke: 2px white;
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  -webkit-animation: opacity0-1 0.0001s step-end 2.7s 1 normal both, scale05-1 0.5s ease-in-out 2.7s 1 normal both;
+          animation: opacity0-1 0.0001s step-end 2.7s 1 normal both, scale05-1 0.5s ease-in-out 2.7s 1 normal both;
+}
+
+#s008-002 {
+  opacity: 0.4;
+  -webkit-animation: opacity0-04 0.0001s step-end 2.7s 1 normal both, scale05-1 0.4s cubic-bezier(0, 0, 0.08, 1.01) 2.7s 1 normal both;
+          animation: opacity0-04 0.0001s step-end 2.7s 1 normal both, scale05-1 0.4s cubic-bezier(0, 0, 0.08, 1.01) 2.7s 1 normal both;
 }
 /*# sourceMappingURL=style.css.map */

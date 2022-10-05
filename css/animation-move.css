@@ -237,7 +237,7 @@
     translate: 0 0;
   }
   to {
-    translate: 0 -110px;
+    translate: 0 -120px;
   }
 }
 
@@ -246,7 +246,7 @@
     translate: 0 0;
   }
   to {
-    translate: 0 -110px;
+    translate: 0 -120px;
   }
 }
 
@@ -445,7 +445,7 @@
     translate: 0;
   }
   to {
-    translate: 20px;
+    translate: 42px;
   }
 }
 
@@ -454,7 +454,43 @@
     translate: 0;
   }
   to {
-    translate: 20px;
+    translate: 42px;
+  }
+}
+
+@-webkit-keyframes s007-001 {
+  from {
+    translate: 0 120px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@keyframes s007-001 {
+  from {
+    translate: 0 120px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@-webkit-keyframes g002 {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 20;
+  }
+}
+
+@keyframes g002 {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 20;
   }
 }
 /*# sourceMappingURL=animation-move.css.map */
