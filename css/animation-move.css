@@ -280,6 +280,7 @@
   }
   100% {
     color: transparent;
+    text-stroke: 2px white;
     -webkit-text-stroke: 2px white;
   }
 }
@@ -296,6 +297,7 @@
   }
   100% {
     color: transparent;
+    text-stroke: 2px white;
     -webkit-text-stroke: 2px white;
   }
 }
