@@ -6,7 +6,6 @@
     opacity: 1;
   }
 }
-
 @keyframes opacity0-1 {
   from {
     opacity: 0;
@@ -15,7 +14,6 @@
     opacity: 1;
   }
 }
-
 @-webkit-keyframes opacity0-04 {
   from {
     opacity: 0;
@@ -24,7 +22,6 @@
     opacity: 0.4;
   }
 }
-
 @keyframes opacity0-04 {
   from {
     opacity: 0;
@@ -33,26 +30,19 @@
     opacity: 0.4;
   }
 }
-
 @-webkit-keyframes scale05-1 {
   from {
-    -webkit-transform: translate(-50%, -55%) scale(0.5);
-            transform: translate(-50%, -55%) scale(0.5);
+    transform: translate(-50%, -55%) scale(0.5);
   }
   to {
-    -webkit-transform: translate(-50%, -55%) scale(1);
-            transform: translate(-50%, -55%) scale(1);
+    transform: translate(-50%, -55%) scale(1);
   }
 }
-
 @keyframes scale05-1 {
   from {
-    -webkit-transform: translate(-50%, -55%) scale(0.5);
-            transform: translate(-50%, -55%) scale(0.5);
+    transform: translate(-50%, -55%) scale(0.5);
   }
   to {
-    -webkit-transform: translate(-50%, -55%) scale(1);
-            transform: translate(-50%, -55%) scale(1);
+    transform: translate(-50%, -55%) scale(1);
   }
-}
-/*# sourceMappingURL=animation-common.css.map */
+}/*# sourceMappingURL=animation-common.css.map */
