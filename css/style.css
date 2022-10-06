@@ -47,6 +47,22 @@
     transform: translate(-50%, -55%) scale(1);
   }
 }
+@-webkit-keyframes scale075-1 {
+  from {
+    transform: scale(0.75);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scale075-1 {
+  from {
+    transform: scale(0.75);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 @-webkit-keyframes up {
   from {
     transform: translateY(-50vh);
@@ -617,6 +633,54 @@
             clip-path: inset(0 0 0 0);
   }
 }
+@-webkit-keyframes s010-001 {
+  from {
+    left: -86.406px;
+  }
+  to {
+    left: 7px;
+  }
+}
+@keyframes s010-001 {
+  from {
+    left: -86.406px;
+  }
+  to {
+    left: 7px;
+  }
+}
+@-webkit-keyframes s011 {
+  from {
+    left: 400px;
+  }
+  to {
+    left: -750px;
+  }
+}
+@keyframes s011 {
+  from {
+    left: 400px;
+  }
+  to {
+    left: -750px;
+  }
+}
+@-webkit-keyframes s013 {
+  from {
+    left: -230px;
+  }
+  to {
+    left: 152px;
+  }
+}
+@keyframes s013 {
+  from {
+    left: -230px;
+  }
+  to {
+    left: 152px;
+  }
+}
 :root {
   font-size: 16px;
 }
@@ -855,7 +919,7 @@ main {
 }
 
 #s009-005, #s009-003 {
-  height: 118px;
+  height: 112px;
   border-left: 3px dashed white;
 }
 
@@ -873,7 +937,7 @@ main {
 }
 #s009-002 {
   position: absolute;
-  top: -15px;
+  top: -12px;
   left: -15px;
   -webkit-clip-path: inset(0 0 0 100%);
           clip-path: inset(0 0 0 100%);
@@ -882,22 +946,86 @@ main {
 }
 #s009-003 {
   position: absolute;
-  top: -15px;
+  top: -12px;
   right: -10px;
   -webkit-animation: s009-003 0.24s ease-in-out 4.08s 1 normal both;
           animation: s009-003 0.24s ease-in-out 4.08s 1 normal both;
 }
 #s009-004 {
   position: absolute;
-  bottom: -20px;
+  bottom: -18px;
   left: -15px;
   -webkit-animation: s009-004 0.04s ease-in-out 4.32s 1 normal both;
           animation: s009-004 0.04s ease-in-out 4.32s 1 normal both;
 }
 #s009-005 {
   position: absolute;
-  top: -15px;
+  top: -12px;
   left: -15px;
   -webkit-animation: s009-005 0.38s ease-in-out 4.36s 1 normal both;
           animation: s009-005 0.38s ease-in-out 4.36s 1 normal both;
+}
+
+#s010 {
+  position: absolute;
+  top: 61px;
+  left: 159px;
+  font-size: 1.8rem;
+  width: 86.406px;
+  height: 28.797px;
+  padding-left: 7px;
+  margin-left: -13px;
+  overflow: hidden;
+}
+#s010-001 {
+  position: absolute;
+  left: -86.406px;
+  -webkit-animation: s010-001 0.32s cubic-bezier(0, 0, 0, 1) 4.42s 1 normal both;
+          animation: s010-001 0.32s cubic-bezier(0, 0, 0, 1) 4.42s 1 normal both;
+}
+
+#s011,
+#s012 {
+  font-family: "Archivo", sans-serif;
+  position: absolute;
+  font-size: 12.3rem;
+  letter-spacing: -0.3rem;
+  scale: 1 0.86;
+}
+
+#s011 {
+  top: -52px;
+  -webkit-animation: s011 0.3s cubic-bezier(0, 1, 1, 0) 4.78s 1 normal both;
+          animation: s011 0.3s cubic-bezier(0, 1, 1, 0) 4.78s 1 normal both;
+}
+
+#s012 {
+  bottom: -52px;
+  animation: s011 0.3s cubic-bezier(0, 1, 1, 0) 4.78s 1 reverse both;
+}
+
+#s013 {
+  position: absolute;
+  top: 96px;
+  left: 152px;
+  font-size: 4.2rem;
+  letter-spacing: -0.1rem;
+  -webkit-animation: s013 0.3s cubic-bezier(0.3, 0, 0.06, 1) 5.04s 1 normal both;
+          animation: s013 0.3s cubic-bezier(0.3, 0, 0.06, 1) 5.04s 1 normal both;
+}
+#s013 span {
+  font-size: 2.1rem;
+}
+
+#s014 {
+  position: absolute;
+  display: flex;
+  top: 35px;
+  left: 0;
+  gap: 1.6rem;
+  font-size: 12.1rem;
+}
+#s014-001, #s014-002 {
+  -webkit-animation: opacity0-1 0.1s step-start 5.24s 1 normal both, scale075-1 0.3s ease 5.24s 1 normal both;
+          animation: opacity0-1 0.1s step-start 5.24s 1 normal both, scale075-1 0.3s ease 5.24s 1 normal both;
 }/*# sourceMappingURL=style.css.map */

@@ -45,4 +45,20 @@
   to {
     transform: translate(-50%, -55%) scale(1);
   }
+}
+@-webkit-keyframes scale075-1 {
+  from {
+    transform: scale(0.75);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scale075-1 {
+  from {
+    transform: scale(0.75);
+  }
+  to {
+    transform: scale(1);
+  }
 }/*# sourceMappingURL=animation-common.css.map */

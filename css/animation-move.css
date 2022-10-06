@@ -567,4 +567,52 @@
     -webkit-clip-path: inset(0 0 0 0);
             clip-path: inset(0 0 0 0);
   }
+}
+@-webkit-keyframes s010-001 {
+  from {
+    left: -86.406px;
+  }
+  to {
+    left: 7px;
+  }
+}
+@keyframes s010-001 {
+  from {
+    left: -86.406px;
+  }
+  to {
+    left: 7px;
+  }
+}
+@-webkit-keyframes s011 {
+  from {
+    left: 400px;
+  }
+  to {
+    left: -750px;
+  }
+}
+@keyframes s011 {
+  from {
+    left: 400px;
+  }
+  to {
+    left: -750px;
+  }
+}
+@-webkit-keyframes s013 {
+  from {
+    left: -230px;
+  }
+  to {
+    left: 152px;
+  }
+}
+@keyframes s013 {
+  from {
+    left: -230px;
+  }
+  to {
+    left: 152px;
+  }
 }/*# sourceMappingURL=animation-move.css.map */

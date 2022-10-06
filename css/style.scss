@@ -250,7 +250,7 @@ main {
 }
 
 %dashedline-vertical {
-  height: 118px;
+  height: 112px;
   border-left: 3px dashed white;
 }
 
@@ -270,7 +270,7 @@ main {
   &-002 {
     @extend %dashedline-horizontal;
     position: absolute;
-    top: -15px;
+    top: -12px;
     left: -15px;
     clip-path: inset(0 0 0 100%);
     animation: s009-002 0.82s ease-in-out 4.08s 1 normal both;
@@ -279,7 +279,7 @@ main {
   &-003 {
     @extend %dashedline-vertical;
     position: absolute;
-    top: -15px;
+    top: -12px;
     right: -10px;
     animation: s009-003 0.24s ease-in-out 4.08s 1 normal both;
   }
@@ -287,7 +287,7 @@ main {
   &-004 {
     @extend %dashedline-horizontal;
     position: absolute;
-    bottom: -20px;
+    bottom: -18px;
     left: -15px;
     animation: s009-004 0.04s ease-in-out 4.32s 1 normal both;
   }
@@ -295,10 +295,82 @@ main {
   &-005 {
     @extend %dashedline-vertical;
     position: absolute;
-    top: -15px;
+    top: -12px;
     left: -15px;
     animation: s009-005 0.38s ease-in-out 4.36s 1 normal both;
   }
 }
 
+#s010 {
+  position: absolute;
+  top: 61px;
+  left: 159px;
+  font-size: 1.8rem;
+  width: 86.406px;
+  height: 28.797px;
+  padding-left: 7px;
+  margin-left: -13px;
+  overflow: hidden;
+
+  &-001 {
+    position: absolute;
+    left: -86.406px;
+    animation: s010-001 0.32s cubic-bezier(0, 0, 0, 1) 4.42s 1 normal both;
+  }
+}
+
+#s011,
+#s012 {
+  font-family: "Archivo", sans-serif;
+  position: absolute;
+  font-size: 12.3rem;
+  letter-spacing: -0.3rem;
+  scale: 1 0.86;
+}
+
+#s011 {
+  top: -52px;
+  animation: s011 0.3s cubic-bezier(0, 1, 1, 0) 4.78s 1 normal both;
+}
+
+#s012 {
+  bottom: -52px;
+  animation: s011 0.3s cubic-bezier(0, 1, 1, 0) 4.78s 1 reverse both;
+}
+
+#s013 {
+  position: absolute;
+  top: 96px;
+  left: 152px;
+  font-size: 4.2rem;
+  letter-spacing: -0.1rem;
+  animation: s013 0.3s cubic-bezier(0.3, 0, 0.06, 1) 5.04s 1 normal both;
+
+  span {
+    font-size: 2.1rem;
+  }
+}
+
+#s014 {
+  position: absolute;
+  display: flex;
+  top: 35px;
+  left: 0;
+  gap: 1.6rem;
+  font-size: 12.1rem;
+
+  &-001,
+  &-002 {
+    animation: opacity0-1 0.1s step-start 5.24s 1 normal both,
+      scale075-1 0.3s ease 5.24s 1 normal both;
+
+    // animation-name: opacity0-1, scale075-1;
+    // animation-duration: 0.0001s, 0.3s;
+    // animation-timing-function: step-end, ease;
+    // animation-delay: 5.24s, 5.24s;
+    // animation-iteration-count: 1, 1;
+    // animation-direction: normal, normal;
+    // animation-fill-mode: both, both;
+  }
+}
 // filter: drop-shadow(0, 3px, 10px, black);
