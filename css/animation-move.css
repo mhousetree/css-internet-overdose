@@ -30,6 +30,22 @@
     transform: translateY(0);
   }
 }
+@-webkit-keyframes main {
+  from {
+    background-color: #001211;
+  }
+  to {
+    background-color: #07566e;
+  }
+}
+@keyframes main {
+  from {
+    background-color: #001211;
+  }
+  to {
+    background-color: #07566e;
+  }
+}
 @-webkit-keyframes s001-001 {
   0% {
     translate: 0 -200px;
@@ -614,5 +630,25 @@
   }
   to {
     left: 152px;
+  }
+}
+@-webkit-keyframes s016 {
+  from {
+    left: 281px;
+    letter-spacing: -1.9rem;
+  }
+  to {
+    left: 15px;
+    letter-spacing: 16.4px;
+  }
+}
+@keyframes s016 {
+  from {
+    left: 281px;
+    letter-spacing: -1.9rem;
+  }
+  to {
+    left: 15px;
+    letter-spacing: 16.4px;
   }
 }/*# sourceMappingURL=animation-move.css.map */
