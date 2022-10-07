@@ -877,6 +877,118 @@
     translate: -10px;
   }
 }
+@-webkit-keyframes g006 {
+  from {
+    top: 28%;
+  }
+  to {
+    top: 0;
+  }
+}
+@keyframes g006 {
+  from {
+    top: 28%;
+  }
+  to {
+    top: 0;
+  }
+}
+@-webkit-keyframes s020 {
+  from {
+    translate: 43px;
+  }
+  to {
+    translate: 0;
+  }
+}
+@keyframes s020 {
+  from {
+    translate: 43px;
+  }
+  to {
+    translate: 0;
+  }
+}
+@-webkit-keyframes s020-001 {
+  from {
+    translate: -195px;
+  }
+  to {
+    translate: 0;
+  }
+}
+@keyframes s020-001 {
+  from {
+    translate: -195px;
+  }
+  to {
+    translate: 0;
+  }
+}
+@-webkit-keyframes s020-002 {
+  from {
+    translate: 0 220px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+@keyframes s020-002 {
+  from {
+    translate: 0 220px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+@-webkit-keyframes s021-001 {
+  from {
+    translate: 0 -130px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+@keyframes s021-001 {
+  from {
+    translate: 0 -130px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+@-webkit-keyframes s021-002 {
+  from {
+    translate: -130px;
+  }
+  to {
+    translate: 0;
+  }
+}
+@keyframes s021-002 {
+  from {
+    translate: -130px;
+  }
+  to {
+    translate: 0;
+  }
+}
+@-webkit-keyframes s021-003 {
+  from {
+    translate: 0 130px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+@keyframes s021-003 {
+  from {
+    translate: 0 130px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
 :root {
   font-size: 16px;
 }
@@ -1082,6 +1194,7 @@ main {
   width: 100%;
   -webkit-animation: g002 0.34s ease-in 2.8s 1 normal both;
           animation: g002 0.34s ease-in 2.8s 1 normal both;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 
 #s008 {
@@ -1090,6 +1203,7 @@ main {
   top: 50%;
   left: 50%;
   font-size: 15.5rem;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 #s008-001, #s008-002 {
   position: absolute;
@@ -1125,6 +1239,7 @@ main {
   position: absolute;
   top: 60px;
   left: 235px;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
   -webkit-animation: opacity0-1 0.0001s step-end 3.98s 1 normal both, s009 0.26s ease-out 3.98s 1 normal both;
           animation: opacity0-1 0.0001s step-end 3.98s 1 normal both, s009 0.26s ease-out 3.98s 1 normal both;
 }
@@ -1174,6 +1289,7 @@ main {
   padding-left: 7px;
   margin-left: -13px;
   overflow: hidden;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 #s010-001 {
   position: absolute;
@@ -1189,6 +1305,7 @@ main {
   font-size: 12.3rem;
   letter-spacing: -0.3rem;
   scale: 1 0.86;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 
 #s011 {
@@ -1210,6 +1327,7 @@ main {
   letter-spacing: -0.1rem;
   -webkit-animation: s013 0.3s cubic-bezier(0.3, 0, 0.06, 1) 5.04s 1 normal both;
           animation: s013 0.3s cubic-bezier(0.3, 0, 0.06, 1) 5.04s 1 normal both;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 #s013 span {
   font-size: 2.1rem;
@@ -1223,6 +1341,7 @@ main {
   gap: 1.6rem;
   font-size: 12.1rem;
   animation: opacity0-1 0.0001s step-end 5.38s 1 reverse both;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 #s014-001, #s014-002 {
   -webkit-animation: opacity0-1 0.1s step-start 5.24s 1 normal both, scale075-1 0.14s ease 5.24s 1 normal both;
@@ -1237,6 +1356,7 @@ main {
   gap: 1.6rem;
   font-size: 12.1rem;
   animation: opacity0-1 0.0001s step-end 5.44s 1 reverse both;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 #s015-001, #s015-002 {
   -webkit-animation: opacity0-1 0.1s step-start 5.38s 1 normal both;
@@ -1258,11 +1378,12 @@ main {
   -webkit-text-stroke: 1.5px white;
   color: transparent;
   letter-spacing: -1.9rem;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
   -webkit-animation: opacity0-1 1s step-start 5.44s 1 normal both, s016 0.28s ease-out 5.44s 1 normal both;
           animation: opacity0-1 1s step-start 5.44s 1 normal both, s016 0.28s ease-out 5.44s 1 normal both;
 }
 
-#g004 {
+#g003 {
   animation: opacity0-1 0.0001s step-end 6.12s 1 reverse both;
 }
 
@@ -1306,13 +1427,14 @@ main {
           animation: s018-002 0.2s ease-out 6.4s 1 normal both;
 }
 
-#g005 {
+#g004 {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   animation: g005 0.4s ease-in-out 6.84s 1 normal both, opacity0-1 0.0001s step-end 7.48s 1 reverse both;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
 }
 
 #s019 {
@@ -1332,4 +1454,67 @@ main {
   translate: -300px;
   -webkit-animation: s019-001 0.3s ease-in-out 6.94s 1 normal both;
           animation: s019-001 0.3s ease-in-out 6.94s 1 normal both;
+}
+
+#g005 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 28%;
+  filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2666666667));
+  -webkit-animation: g006 0.4s ease-in-out 8.18s 1 normal both;
+          animation: g006 0.4s ease-in-out 8.18s 1 normal both;
+}
+
+#s020 {
+  display: flex;
+  font-size: 9.4rem;
+  letter-spacing: 1rem;
+  position: absolute;
+  top: -5%;
+  translate: 43px;
+  -webkit-animation: s020 0.24s cubic-bezier(0, 0, 0.2, 1) 7.96s 1 normal both;
+          animation: s020 0.24s cubic-bezier(0, 0, 0.2, 1) 7.96s 1 normal both;
+}
+#s020-001 {
+  translate: -195px;
+  -webkit-animation: s020-001 0.42s cubic-bezier(0, 0, 0.2, 1) 7.5s 1 normal both;
+          animation: s020-001 0.42s cubic-bezier(0, 0, 0.2, 1) 7.5s 1 normal both;
+}
+#s020-002 {
+  translate: 0 220px;
+  -webkit-animation: s020-002 0.42s cubic-bezier(0, 0, 0.2, 1) 7.5s 1 normal both;
+          animation: s020-002 0.42s cubic-bezier(0, 0, 0.2, 1) 7.5s 1 normal both;
+}
+
+#s021 {
+  position: absolute;
+  top: -3%;
+  right: 0;
+  font-size: 3.1rem;
+}
+#s021-001 {
+  translate: 0 -126px;
+  -webkit-animation: s021-001 0.34s cubic-bezier(0, 0, 0.2, 1) 7.92s 1 normal both;
+          animation: s021-001 0.34s cubic-bezier(0, 0, 0.2, 1) 7.92s 1 normal both;
+}
+#s021-002 {
+  translate: -130px;
+  -webkit-animation: opacity0-1 1s step-start 7.92s 1 normal both, s021-002 0.34s cubic-bezier(0, 0, 0.2, 1) 7.92s 1 normal both;
+          animation: opacity0-1 1s step-start 7.92s 1 normal both, s021-002 0.34s cubic-bezier(0, 0, 0.2, 1) 7.92s 1 normal both;
+}
+#s021-003 {
+  -webkit-animation: s021-003 0.34s cubic-bezier(0, 0, 0.2, 1) 7.92s 1 normal both;
+          animation: s021-003 0.34s cubic-bezier(0, 0, 0.2, 1) 7.92s 1 normal both;
+}
+
+#s022 {
+  position: absolute;
+  bottom: 0;
+  left: -3%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 5.3rem;
+  letter-spacing: -0.1rem;
 }/*# sourceMappingURL=style.css.map */

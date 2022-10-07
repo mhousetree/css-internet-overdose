@@ -431,3 +431,66 @@
     translate: -10px;
   }
 }
+
+@keyframes g006 {
+  from {
+    top: 28%;
+  }
+  to {
+    top: 0;
+  }
+}
+
+@keyframes s020 {
+  from {
+    translate: 43px;
+  }
+  to {
+    translate: 0;
+  }
+}
+
+@keyframes s020-001 {
+  from {
+    translate: -195px;
+  }
+  to {
+    translate: 0;
+  }
+}
+
+@keyframes s020-002 {
+  from {
+    translate: 0 220px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@keyframes s021-001 {
+  from {
+    translate: 0 -130px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
+
+@keyframes s021-002 {
+  from {
+    translate: -130px;
+  }
+  to {
+    translate: 0;
+  }
+}
+
+@keyframes s021-003 {
+  from {
+    translate: 0 130px;
+  }
+  to {
+    translate: 0 0;
+  }
+}
