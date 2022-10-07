@@ -779,4 +779,36 @@
   to {
     translate: 0px;
   }
+}
+@-webkit-keyframes g005 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -140px;
+  }
+}
+@keyframes g005 {
+  from {
+    translate: 0;
+  }
+  to {
+    translate: -140px;
+  }
+}
+@-webkit-keyframes s019-001 {
+  from {
+    translate: -300px;
+  }
+  to {
+    translate: -10px;
+  }
+}
+@keyframes s019-001 {
+  from {
+    translate: -300px;
+  }
+  to {
+    translate: -10px;
+  }
 }/*# sourceMappingURL=animation-move.css.map */
