@@ -1,21 +1,3 @@
-@keyframes up {
-  from {
-    transform: translateY(-50vh);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
-@keyframes down {
-  from {
-    transform: translateY(50vh);
-  }
-  to {
-    transform: translateY(0);
-  }
-}
-
 @keyframes main {
   from {
     background-color: #001211;
