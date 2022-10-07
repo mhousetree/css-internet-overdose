@@ -61,4 +61,20 @@
   to {
     transform: scale(1);
   }
+}
+@-webkit-keyframes display-none {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
+  }
+}
+@keyframes display-none {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
+  }
 }/*# sourceMappingURL=animation-common.css.map */

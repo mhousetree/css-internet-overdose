@@ -923,4 +923,188 @@
   to {
     translate: 0 0;
   }
+}
+@-webkit-keyframes s023 {
+  from {
+    letter-spacing: -2rem;
+  }
+  to {
+    letter-spacing: 1rem;
+  }
+}
+@keyframes s023 {
+  from {
+    letter-spacing: -2rem;
+  }
+  to {
+    letter-spacing: 1rem;
+  }
+}
+@-webkit-keyframes s023-erase-element {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 300%;
+  }
+}
+@keyframes s023-erase-element {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 300%;
+  }
+}
+@-webkit-keyframes s024 {
+  from {
+    letter-spacing: -1rem;
+  }
+  to {
+    letter-spacing: 0;
+  }
+}
+@keyframes s024 {
+  from {
+    letter-spacing: -1rem;
+  }
+  to {
+    letter-spacing: 0;
+  }
+}
+@-webkit-keyframes s024-up {
+  from {
+    top: 50%;
+  }
+  to {
+    top: 23%;
+  }
+}
+@keyframes s024-up {
+  from {
+    top: 50%;
+  }
+  to {
+    top: 23%;
+  }
+}
+@-webkit-keyframes s026 {
+  from {
+    top: 50%;
+  }
+  to {
+    top: 74%;
+  }
+}
+@keyframes s026 {
+  from {
+    top: 50%;
+  }
+  to {
+    top: 74%;
+  }
+}
+@-webkit-keyframes s026-001 {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -18rem;
+  }
+}
+@keyframes s026-001 {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -18rem;
+  }
+}
+@-webkit-keyframes s026-002 {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -13.5rem;
+  }
+}
+@keyframes s026-002 {
+  from {
+    translate: 0 0;
+  }
+  to {
+    translate: 0 -13.5rem;
+  }
+}
+@-webkit-keyframes s027-p {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0.3;
+  }
+}
+@keyframes s027-p {
+  from {
+    scale: 1;
+  }
+  to {
+    scale: 0.3;
+  }
+}
+@-webkit-keyframes s028 {
+  from {
+    left: 59.7%;
+    letter-spacing: 4.9rem;
+  }
+  to {
+    left: 29%;
+    letter-spacing: 0;
+  }
+}
+@keyframes s028 {
+  from {
+    left: 59.7%;
+    letter-spacing: 4.9rem;
+  }
+  to {
+    left: 29%;
+    letter-spacing: 0;
+  }
+}
+@-webkit-keyframes s029-color {
+  from {
+    color: white;
+  }
+  to {
+    color: transparent;
+  }
+}
+@keyframes s029-color {
+  from {
+    color: white;
+  }
+  to {
+    color: transparent;
+  }
+}
+@-webkit-keyframes s029-space {
+  from {
+    top: 25%;
+    letter-spacing: -9.6rem;
+  }
+  to {
+    top: 50%;
+    letter-spacing: 0;
+  }
+}
+@keyframes s029-space {
+  from {
+    top: 25%;
+    letter-spacing: -9.6rem;
+  }
+  to {
+    top: 50%;
+    letter-spacing: 0;
+  }
 }/*# sourceMappingURL=animation-move.css.map */

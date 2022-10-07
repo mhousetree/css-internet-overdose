@@ -33,3 +33,12 @@
     transform: scale(1);
   }
 }
+
+@keyframes display-none {
+  from {
+    display: block;
+  }
+  to {
+    display: none;
+  }
+}
