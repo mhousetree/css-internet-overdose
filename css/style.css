@@ -1799,8 +1799,8 @@ main {
 #s026-001 {
   font-size: 4.5rem;
   height: 4.5rem;
-  -webkit-animation: s026-001 0.04s steps(4, jump-start) 9.9s 1 normal both;
-          animation: s026-001 0.04s steps(4, jump-start) 9.9s 1 normal both;
+  -webkit-animation: s026-001 0.16s steps(4, jump-start) 9.9s 1 normal both;
+          animation: s026-001 0.16s steps(4, jump-start) 9.9s 1 normal both;
 }
 #s026-001 span {
   display: block;
@@ -1818,8 +1818,8 @@ main {
   font-size: 3.6rem;
   line-height: 4.5rem;
   padding-top: 0.4rem;
-  -webkit-animation: s026-002 0.04s steps(3, jump-start) 10.02s 1 normal both;
-          animation: s026-002 0.04s steps(3, jump-start) 10.02s 1 normal both;
+  -webkit-animation: s026-002 0.12s steps(3, jump-start) 10.02s 1 normal both;
+          animation: s026-002 0.12s steps(3, jump-start) 10.02s 1 normal both;
 }
 
 #s027 {
