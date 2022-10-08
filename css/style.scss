@@ -47,6 +47,9 @@ main {
   font-size: 16px;
   padding: 1rem;
   box-sizing: border-box;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
 
   p {
     font-weight: 300;
@@ -70,15 +73,6 @@ main {
 @media screen and (max-width: 399px) {
   #not-good-width {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-content: center;
-  }
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
-  #not-good-browser {
-    display: none;
   }
 }
 

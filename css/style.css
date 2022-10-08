@@ -1205,7 +1205,6 @@ main {
   flex-direction: column;
   gap: 1rem;
   justify-content: center;
-
 }
 #not-good-width p,
 #not-good-browser p {
@@ -1231,12 +1230,6 @@ main {
     display: flex;
   }
 }
-@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: .001dpcm) {
-  #not-good-browser {
-    display: none;
-  }
-}  
-
 #s001,
 #s002,
 #s003 {
