@@ -1,6 +1,6 @@
 # stylesheet-overdose
 
-![INTERNET OVERDOSE](https://www.youtube.com/watch?v=BnkhBwzBqlQ)
+[INTERNET OVERDOSE](https://www.youtube.com/watch?v=BnkhBwzBqlQ) の冒頭のテキストモーショングラフィックスをCSSアニメーションで再現しました。
 
 text-strokeの仕様が変わってしまい現在はリンク先だと正しく表示されません(縁取り文字の縁取りが1画ずつになってしまっている)
 
