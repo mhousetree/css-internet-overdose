@@ -169,7 +169,6 @@ main {
   width: max-content;
   color: #ffff00;
   font-size: 12rem;
-  -webkit-text-stroke: 0px white;
   animation: s004 0.36s cubic-bezier(0, 0, 0.24, 1) 1.16s 1 normal both,
     s004-color 0.14s step-end 1.54s 1 normal both;
 }
@@ -280,9 +279,11 @@ main {
 
   &-001 {
     translate: 0 -3%;
-    text-stroke: 2px white;
-    -webkit-text-stroke: 2px white;
-    color: transparent;
+    color: mix(#001211, #07566e);
+    text-shadow: 0 -1.5px 0 white, 1.5px -1.5px 0 white, 1.5px 0 0 white,
+      1.5px 1.5px 0 white, 0 1.5px 0 white, -1.5px 1.5px 0 white,
+      -1.5px 0 0 white, -1.5px -1.5px 0 white;
+    mix-blend-mode: lighten;
     animation: opacity0-1 0.0001s step-end 2.88s 1 normal both,
       scale05-1 0.92s cubic-bezier(0, 0, 0.39, 1) 2.88s 1 normal both,
       s008-001 0.2s cubic-bezier(0.76, 0.02, 1, 0.73) 3.88s 1 normal both;
@@ -446,9 +447,11 @@ main {
   &-001,
   &-002 {
     animation: opacity0-1 0.1s step-start 5.38s 1 normal both;
-    text-stroke: 2px white;
-    -webkit-text-stroke: 2px white;
-    color: transparent;
+    color: #07566e;
+    text-shadow: 0 -1.5px 0 white, 1.5px -1.5px 0 white, 1.5px 0 0 white,
+      1.5px 1.5px 0 white, 0 1.5px 0 white, -1.5px 1.5px 0 white,
+      -1.5px 0 0 white, -1.5px -1.5px 0 white;
+    mix-blend-mode: lighten;
   }
 }
 
@@ -459,9 +462,11 @@ main {
   top: 118px;
   left: 281px;
   font-size: 7.3rem;
-  text-stroke: 1.5px white;
-  -webkit-text-stroke: 1.5px white;
-  color: transparent;
+  color: #07566e;
+  text-shadow: 0 -1.5px 0 white, 1.5px -1.5px 0 white, 1.5px 0 0 white,
+    1.5px 1.5px 0 white, 0 1.5px 0 white, -1.5px 1.5px 0 white, -1.5px 0 0 white,
+    -1.5px -1.5px 0 white;
+  mix-blend-mode: lighten;
   letter-spacing: -1.9rem;
   filter: drop-shadow(0px 4px 3px #0004);
 
@@ -748,8 +753,10 @@ main {
   height: max-content;
   writing-mode: vertical-rl;
   letter-spacing: -9.6rem;
-  test-stroke: 1px white;
-  -webkit-text-stroke: 1px white;
+  text-shadow: 0 -1.5px 0 white, 1.5px -1.5px 0 white, 1.5px 0 0 white,
+    1.5px 1.5px 0 white, 0 1.5px 0 white, -1.5px 1.5px 0 white, -1.5px 0 0 white,
+    -1.5px -1.5px 0 white;
+  mix-blend-mode: lighten;
 
   animation: opacity0-1 1s step-start 10.48s 1 normal backwards,
     s029-color 0.18s ease-in-out 10.52s 1 normal both,
